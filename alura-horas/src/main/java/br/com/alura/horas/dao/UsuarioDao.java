@@ -32,4 +32,12 @@ public class UsuarioDao {
         
         return query.getResultList();
     }
+
+	public Usuario busca(String login, String senha) {
+		TypedQuery<Usuario> query = manager.createQuery("select u from Usuario u where u.login = :login AND u.senha = :senha ",Usuario.class);
+		query.setParameter("login",login);
+		query.setParameter("senha",senha);
+		
+		return query.getSingleResult();
+	}
 }
