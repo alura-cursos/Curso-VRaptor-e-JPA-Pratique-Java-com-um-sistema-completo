@@ -1,6 +1,9 @@
 package br.com.alura.horas.modelos;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -83,5 +86,19 @@ public class HoraLancada {
 
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+	
+	public Double getDuracao(){
+		try {
+			SimpleDateFormat format = new SimpleDateFormat("HH:mm");
+			Date fim = format.parse(horaFinal);
+			Date inicio = format.parse(horaInicial);
+			long milis = fim.getTime() - inicio.getTime();
+			
+			return (double) milis/(60 * 60 * 1000);
+		} catch (ParseException e) {
+			return 0.0;
+		}
+		
 	}
 }

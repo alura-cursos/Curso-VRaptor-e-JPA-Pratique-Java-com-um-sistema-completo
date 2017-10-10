@@ -1,0 +1,12 @@
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/modelos/HoraLancada.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/modelos/Usuario.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/controllers/IndexController.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/controllers/LoginController.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/dao/UsuarioDao.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/controllers/HoraLancadaController.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/seguranca/AutorizacaoInterceptor.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/dao/HoraLancadaDao.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/seguranca/UsuarioLogado.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/seguranca/Open.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/controllers/UsuarioController.java
+/home/andre/Desktop/AluraSteps/Curso VRaptor e JPA: Pratique Java com um sistema completo/src/main/java/br/com/alura/horas/infra/EntityManagerProducer.java

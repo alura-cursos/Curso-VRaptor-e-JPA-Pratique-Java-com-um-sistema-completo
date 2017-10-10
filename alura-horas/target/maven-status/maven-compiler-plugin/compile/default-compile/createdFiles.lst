@@ -1,0 +1,12 @@
+br/com/alura/horas/seguranca/Open.class
+br/com/alura/horas/controllers/UsuarioController.class
+br/com/alura/horas/controllers/IndexController.class
+br/com/alura/horas/dao/UsuarioDao.class
+br/com/alura/horas/seguranca/AutorizacaoInterceptor.class
+br/com/alura/horas/modelos/Usuario.class
+br/com/alura/horas/infra/EntityManagerProducer.class
+br/com/alura/horas/dao/HoraLancadaDao.class
+br/com/alura/horas/controllers/LoginController.class
+br/com/alura/horas/modelos/HoraLancada.class
+br/com/alura/horas/controllers/HoraLancadaController.class
+br/com/alura/horas/seguranca/UsuarioLogado.class
