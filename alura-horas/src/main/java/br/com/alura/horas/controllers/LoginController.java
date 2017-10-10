@@ -7,7 +7,6 @@ import br.com.alura.horas.modelos.Usuario;
 import br.com.alura.horas.seguranca.Open;
 import br.com.alura.horas.seguranca.UsuarioLogado;
 import br.com.caelum.vraptor.Controller;
-import br.com.caelum.vraptor.Path;
 import br.com.caelum.vraptor.Result;
 import br.com.caelum.vraptor.validator.SimpleMessage;
 import br.com.caelum.vraptor.validator.Validator;
